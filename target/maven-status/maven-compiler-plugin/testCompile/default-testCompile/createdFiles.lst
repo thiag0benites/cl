@@ -1,0 +1,4 @@
+runner\RunnerTest.class
+steps\NewToursSteps.class
+support\GeraCpfCnpj.class
+support\Hooks.class

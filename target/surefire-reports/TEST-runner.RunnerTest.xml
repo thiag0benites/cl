@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="13" failures="0" name="runner.RunnerTest" time="135.977" errors="0" skipped="12">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Automacao\java\Claro\framework"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Automacao\java\Claro\framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\THIAGO~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Automacao\java\Claro\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7008131115485456059.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-13.0.2/bin/server;C:/Program Files/Java/jdk-13.0.2/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\maven\bin;C:\Program Files\Git\cmd;C:\Ruby26-x64\bin;C:\Users\Thiago Benites\AppData\Local\Microsoft\WindowsApps;;C:\Users\Thiago Benites\AppData\Local\Programs\Microsoft VS Code\bin;C:\Instaladores;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Thiago Benites"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="Thiago Benites"/>
+    <property name="java.class.path" value="C:\Users\Thiago Benites\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.2"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Automacao\java\Claro\framework\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="| &quot;Blue Skies Airlines 361&quot; | &quot;Blue Skies Airlines 631&quot; | &quot;Automacao&quot; | &quot;Teste&quot; | &quot;118989038904&quot; |" name="Dado que acesso o sistema" time="10.441">
+    <skipped/>
+    <system-out>#language: pt
+#Author: Thiago Benites
+@newtours
+Funcionalidade: Testes basicos no google
+  Eu como um usuário
+  Quero realizar uma reserva de voo
+
+  @smoketest
+  Esquema do Cenario: CT01_Reserva voo                               &amp;#27;[90m# newtours.feature:13&amp;#27;[0m
+    &amp;#27;[36mQuando &amp;#27;[0m&amp;#27;[36mpreencho os dados da reserva &quot;Dados&quot;&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mestou na tela &quot;SELECT FLIGHT&quot;&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mseleciono o voo de ida &lt;Ida&gt;&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mseleciono o voo de volta &lt;Volta&gt;&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mestou na tela &quot;BOOK A FLIGHT&quot;&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mvalido os dados de voo &lt;Ida&gt; e &lt;Volta&gt;&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mpreencho os campos obrigatorios &lt;Nome&gt;, &lt;SobreNome&gt; e &lt;Cartao&gt;&amp;#27;[0m
+    &amp;#27;[36mQuando &amp;#27;[0m&amp;#27;[36mestou na tela &quot;FLIGHT CONFIRMATION&quot;&amp;#27;[0m
+    &amp;#27;[36mEntao &amp;#27;[0m&amp;#27;[36mvalido o numero de reserva&amp;#27;[0m
+
+    Exemplos: 
+*** Iniciando Teste ***
+Executando cenario CT01_Reserva voo
+</system-out>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 13463
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1584415895.958][WARNING]: Timed out connecting to Chrome, retrying...
+mar 17, 2020 12:31:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1584415900.006][WARNING]: Timed out connecting to Chrome, retrying...
+</system-err>
+  </testcase>
+  <testcase classname="| &quot;Blue Skies Airlines 361&quot; | &quot;Blue Skies Airlines 631&quot; | &quot;Automacao&quot; | &quot;Teste&quot; | &quot;118989038904&quot; |" name="Entao realizo login" time="10.442">
+    <skipped/>
+  </testcase>
+  <testcase classname="| &quot;Blue Skies Airlines 361&quot; | &quot;Blue Skies Airlines 631&quot; | &quot;Automacao&quot; | &quot;Teste&quot; | &quot;118989038904&quot; |" name="Quando preencho os dados da reserva &quot;Dados&quot;" time="10.453">
+    <skipped/>
+    <system-out>
+  Contexto: Acesso o sistema de reserva &amp;#27;[90m# newtours.feature:8&amp;#27;[0m
+    &amp;#27;[33mDado &amp;#27;[0m&amp;#27;[33mque acesso o sistema&amp;#27;[0m           &amp;#27;[90m# NewToursSteps.queAcessoOSistema()&amp;#27;[0m
+      &amp;#27;[31mcucumber.api.PendingException: TODO: implement me
+      	at steps.NewToursSteps.queAcessoOSistema(NewToursSteps.java:14)
+      	at ?.Dado que acesso o sistema(newtours.feature:9)
+      &amp;#27;[0m
+    &amp;#27;[36mEntao &amp;#27;[0m&amp;#27;[36mrealizo login&amp;#27;[0m                 &amp;#27;[90m# NewToursSteps.realizoLogin()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="| &quot;Blue Skies Airlines 361&quot; | &quot;Blue Skies Airlines 631&quot; | &quot;Automacao&quot; | &quot;Teste&quot; | &quot;118989038904&quot; |" name="E estou na tela &quot;SELECT FLIGHT&quot;" time="10.455">
+    <skipped/>
+  </testcase>
+  <testcase classname="| &quot;Blue Skies Airlines 361&quot; | &quot;Blue Skies Airlines 631&quot; | &quot;Automacao&quot; | &quot;Teste&quot; | &quot;118989038904&quot; |" name="E seleciono o voo de ida &quot;Blue Skies Airlines 361&quot;" time="10.458">
+    <skipped/>
+  </testcase>
+  <testcase classname="| &quot;Blue Skies Airlines 361&quot; | &quot;Blue Skies Airlines 631&quot; | &quot;Automacao&quot; | &quot;Teste&quot; | &quot;118989038904&quot; |" name="E seleciono o voo de volta &quot;Blue Skies Airlines 631&quot;" time="10.46">
+    <skipped/>
+  </testcase>
+  <testcase classname="| &quot;Blue Skies Airlines 361&quot; | &quot;Blue Skies Airlines 631&quot; | &quot;Automacao&quot; | &quot;Teste&quot; | &quot;118989038904&quot; |" name="E estou na tela &quot;BOOK A FLIGHT&quot;" time="10.462">
+    <skipped/>
+  </testcase>
+  <testcase classname="| &quot;Blue Skies Airlines 361&quot; | &quot;Blue Skies Airlines 631&quot; | &quot;Automacao&quot; | &quot;Teste&quot; | &quot;118989038904&quot; |" name="E valido os dados de voo &quot;Blue Skies Airlines 361&quot; e &quot;Blue Skies Airlines 631&quot;" time="10.464">
+    <skipped/>
+  </testcase>
+  <testcase classname="| &quot;Blue Skies Airlines 361&quot; | &quot;Blue Skies Airlines 631&quot; | &quot;Automacao&quot; | &quot;Teste&quot; | &quot;118989038904&quot; |" name="E preencho os campos obrigatorios &quot;Automacao&quot;, &quot;Teste&quot; e &quot;118989038904&quot;" time="10.466">
+    <skipped/>
+  </testcase>
+  <testcase classname="| &quot;Blue Skies Airlines 361&quot; | &quot;Blue Skies Airlines 631&quot; | &quot;Automacao&quot; | &quot;Teste&quot; | &quot;118989038904&quot; |" name="Quando estou na tela &quot;FLIGHT CONFIRMATION&quot;" time="10.467">
+    <skipped/>
+  </testcase>
+  <testcase classname="| &quot;Blue Skies Airlines 361&quot; | &quot;Blue Skies Airlines 631&quot; | &quot;Automacao&quot; | &quot;Teste&quot; | &quot;118989038904&quot; |" name="Entao valido o numero de reserva" time="10.468">
+    <skipped/>
+  </testcase>
+  <testcase classname="| &quot;Blue Skies Airlines 361&quot; | &quot;Blue Skies Airlines 631&quot; | &quot;Automacao&quot; | &quot;Teste&quot; | &quot;118989038904&quot; |" name="| &quot;Blue Skies Airlines 361&quot; | &quot;Blue Skies Airlines 631&quot; | &quot;Automacao&quot; | &quot;Teste&quot; | &quot;118989038904&quot; |" time="10.47">
+    <skipped/>
+    <system-out>*** Fim dos testes ***
+</system-out>
+  </testcase>
+  <testcase classname="| &quot;Blue Skies Airlines 361&quot; | &quot;Blue Skies Airlines 631&quot; | &quot;Automacao&quot; | &quot;Teste&quot; | &quot;118989038904&quot; |" name="| &quot;Blue Skies Airlines 361&quot; | &quot;Blue Skies Airlines 631&quot; | &quot;Automacao&quot; | &quot;Teste&quot; | &quot;118989038904&quot; |" time="10.471"/>
+</testsuite>
