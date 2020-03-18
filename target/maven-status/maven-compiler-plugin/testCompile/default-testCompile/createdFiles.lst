@@ -1,4 +1,7 @@
+pages\NewToursPage.class
+support\GeraCpfCnpj.class
+support\DriverQA$1.class
+support\Hooks.class
 runner\RunnerTest.class
 steps\NewToursSteps.class
-support\GeraCpfCnpj.class
-support\Hooks.class
+support\DriverQA.class

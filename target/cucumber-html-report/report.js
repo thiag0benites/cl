@@ -175,7 +175,7 @@ formatter.examples({
   "keyword": "Exemplos"
 });
 formatter.before({
-  "duration": 10117623100,
+  "duration": 11127072800,
   "status": "passed"
 });
 formatter.background({
@@ -199,7 +199,7 @@ formatter.match({
   "location": "NewToursSteps.queAcessoOSistema()"
 });
 formatter.result({
-  "duration": 4498554600,
+  "duration": 2038422000,
   "status": "passed"
 });
 formatter.match({
@@ -208,7 +208,7 @@ formatter.match({
 formatter.write("Teste Print");
 formatter.embedding("image/png", "embedded0.png");
 formatter.result({
-  "duration": 6424423700,
+  "duration": 6723355600,
   "status": "passed"
 });
 formatter.scenario({
@@ -361,7 +361,7 @@ formatter.match({
   "location": "NewToursSteps.preenchoOsDadosDaReserva(String,DataTable)"
 });
 formatter.result({
-  "duration": 2339400,
+  "duration": 5855800,
   "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat steps.NewToursSteps.preenchoOsDadosDaReserva(NewToursSteps.java:31)\r\n\tat ✽.Quando preencho os dados da reserva \"Dados\"(newtours.feature:14)\r\n",
   "status": "pending"
 });
@@ -468,7 +468,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 584857800,
+  "duration": 580246400,
   "status": "passed"
 });
 });

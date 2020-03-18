@@ -1,4 +1,6 @@
-C:\Automacao\java\Claro\framework\src\test\java\support\GeraCpfCnpj.java
-C:\Automacao\java\Claro\framework\src\test\java\runner\RunnerTest.java
-C:\Automacao\java\Claro\framework\src\test\java\support\Hooks.java
-C:\Automacao\java\Claro\framework\src\test\java\steps\NewToursSteps.java
+C:\Automacao\java\Claro\frameworkFront\src\test\java\steps\NewToursSteps.java
+C:\Automacao\java\Claro\frameworkFront\src\test\java\support\Hooks.java
+C:\Automacao\java\Claro\frameworkFront\src\test\java\runner\RunnerTest.java
+C:\Automacao\java\Claro\frameworkFront\src\test\java\support\GeraCpfCnpj.java
+C:\Automacao\java\Claro\frameworkFront\src\test\java\support\DriverQA.java
+C:\Automacao\java\Claro\frameworkFront\src\test\java\pages\NewToursPage.java
